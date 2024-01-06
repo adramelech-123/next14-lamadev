@@ -9,7 +9,7 @@ const PostCard = () => {
         <div className={styles.imgContainer}>
           <Image
             src={
-              "https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg "
+              "https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg"
             }
             alt=""
             fill
