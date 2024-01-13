@@ -2,6 +2,8 @@ import styles from "./home.module.css"
 import Image from "next/image";
 
 const Home = () => {
+  
+  
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
@@ -27,6 +29,7 @@ const Home = () => {
       <div className={styles.imgContainer}>
         <Image src={"/hero.gif"} alt="hero" className={styles.heroImage} fill />
       </div>
+      
     </div>
   );
 };
